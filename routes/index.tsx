@@ -1,5 +1,5 @@
 import { useSignal } from "@preact/signals";
-import Demo from "../islands/Counter.tsx";
+import Demo from "../islands/Demo.tsx";
 
 export default function Home() {
   const count = useSignal(3);
